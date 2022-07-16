@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+*{
+	font-family: 'Bree Serif', serif;
+}
+body{
+    background-color: gainsboro;
+}
+.nav-link{
+	margin-right: 15px;
+	color:#2F363F;
+	letter-spacing: 0.5px;
+	transition: 0.5s;
+    flex-basis: auto;
+    flex-direction: row-reverse;
+	justify-content: end;
+}
+.navbar-brand{
+	color: darkslateblue;
+	letter-spacing: 0.5px;
+}
+h2{
+	letter-spacing: 0.5px;
+	font-family: 'Bree Serif', serif;
+	color: darkslateblue;
+}
+
+#collapsibleNavbar .navbar-nav .nav-item li{
+    display: flex;
+    flex-basis: auto;
+    flex-direction: row-reverse;
+} 
+
+.nav-item{
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+/* @media (min-width: 768px) */
+.navbar-expand-md .navbar-collapse {
+    display: flex!important;
+    flex-basis: auto;
+    flex-direction: row-reverse;
+	justify-content: end;
+}
+
+.navbar-expand-md .navbar-nav .nav-link {
+    padding-right: var(--bs-navbar-nav-link-padding-x);
+    padding-left: var(--bs-navbar-nav-link-padding-x);
+    color: darkslateblue;
+}
+
+.bg-light {
+    --bs-bg-opacity: 1;
+    color: darkslateblue;
+}
+
+.navbar-expand-md .navbar-collapse {
+    display: flex!important;
+    flex-basis: auto;
+    justify-content: end;
+}
+
+.navbar-light .navbar-brand {
+    color: darkslateblue;
+}
+
+
+

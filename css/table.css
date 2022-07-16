@@ -1,0 +1,54 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Bree Serif', serif;
+	color: darkslateblue;
+}
+h2{
+	font-size: 40px;
+	font-family: 'Bree Serif', serif;
+}
+table{
+	letter-spacing: 1.2px;
+}
+td{
+	text-align: center;
+}
+button{
+	border:none;
+	background: #d9d9d9;
+    transition: 1s;
+}
+@media only screen and (orientation: portrait){
+	*{
+		letter-spacing: 1px;
+	}
+}
+
+.col {
+    flex: 1 0 0%;
+    background-color: blanchedalmond;
+}
+
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+    background-color: blanchedalmond;
+}
+
+.table-striped>tbody>tr:nth-of-type(odd)>* {
+    --bs-table-accent-bg: var(--bs-table-striped-bg);
+    color: darkslateblue;
+}
+
+button{
+	transition: 1.5s;
+	background: linen;
+}
+
+button:hover{
+	background-color:#616C6F;
+	color: white;
+}
